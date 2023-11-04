@@ -13,7 +13,7 @@ function App() {
     let str = "ABCDEFGHIJKLMNOPQRSTabcdefghijklmnopqrstuvwxyz";
     if (numberAllow) str += "013456789";
     if (charAllow) str += "!@#$%^&*(){}~'";
-    for (let i = 0; i < length; i++) {
+    for (let i = 0; i < length; i++) {  
       let char = Math.floor(Math.random() * str.length);
       console.log("dsdsd",char);
       pass += str.charAt(char);
